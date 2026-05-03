@@ -23,9 +23,9 @@ pydirectinput.PAUSE = 0
 pydirectinput.FAILSAFE = False
 
 # Tune if coverage is patchy or sweep is too slow:
-LINE_SPACING = 8        # px between horizontal sweeps (smaller = denser)
-STEP_PX = 4             # px per relative-motion tick during a sweep
-TICK_SLEEP = 0.001      # seconds between ticks (lets game's input poll catch up)
+LINE_SPACING = 2        # px between horizontal sweeps (smaller = denser)
+STEP_PX = 60            # px per relative-motion tick during a sweep
+TICK_SLEEP = 0.00001     # seconds between ticks (lets game's input poll catch up)
 START_DELAY = 0.4       # seconds before the sweep starts after hotkey
 
 _running = False
